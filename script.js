@@ -8,3 +8,11 @@ console.log(typeof x)
 
 let booli = true
 console.log( typeof booli)
+
+
+
+//Length
+
+let info = "Aditya Banerjee"
+console.log(info.length)
+
