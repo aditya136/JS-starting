@@ -313,6 +313,8 @@
 
 
 
+
+
 // Logical Operators with Non-booleans
 
 // false || true
@@ -351,13 +353,22 @@
 //Operator Section :  Final Exercise
 
 // Swapping Variables
+// Swapping variable solution
+// let a = "red";
+// let b = "green"
 
-let a = 3
-let b = 4
+// let c;
+// c = a
+// a = b
+// b = c
 
-[a, b] = [b, a]
 
-console.log(a)
+// b = a
+// a = b
+
+// console.log("a", a)
+// console.log("b", b)
+// console.log("C :", c)
 
 
 
@@ -415,4 +426,169 @@ console.log(a)
 
 // if(role === "guest") console.log("Guest User")
 // else if(role === "moderator") console.log("Moderator User")
-// (34 lines left)
+
+
+
+ 
+
+
+
+ 
+
+// Use for and while loop to console all the odd/even numbers
+
+// for (let i = 1; i<=10; i++){
+//     if(i % 2 ===1) console.log(i)
+// }
+
+// let i = 20;
+// while(i <= 10){
+//     if(i% 2 === 0 ) console.log(i)
+//     i++
+// }
+
+// do - while loop
+
+// let i = 20
+// do{
+//     if(i%2 === 0) console.log(i)
+//     i++
+// } while(i<=10)
+
+// for - in loop
+
+// const teacher  = {
+//     name: "Aninda",
+//     age: "28"
+// }
+
+// let selectedProperty = "age"
+// console.log(teacher[selectedProperty])
+
+// for (let key in teacher){
+//     // How to get the values?
+//     console.log(key, teacher[key])    
+// }
+
+
+// const colors = ["red", "green", "blue"]
+
+// for(let index in colors){
+//     console.log(index, colors[index])
+// }
+
+// for - of loop
+
+// for (let color of colors){
+//     console.log(color)
+// }
+
+// Break and continue
+// Break -> we jump out of the loop
+// continue -> we jump to the next iteration
+
+// let k = 0;
+// while(k<= 10){
+//     // if(k===5) break
+//     if(k%2=== 0){
+//         k++;
+//         continue;
+//     }
+//     console.log(k)
+//     k++
+// }
+
+
+// Exercise - Landscape or portrait
+// function isLandscape(width, height){
+//     // if(width > height) return true
+//     // else return false
+
+//     // return width > height ? true : false
+
+//     return width > height
+// }
+
+
+// console.log(isLandscape(300, 200))
+
+
+// Exercise - FizzBuzz
+// Divisible by 3 => Fizz
+// Divisible by 5 => Buzz
+// Divisible by both 3 and 5 => FizzBuzz
+// Not divisible by 3 or 5 => input
+// Not a number => "Not a number"
+
+// function fizzBuzz(input){
+
+// }
+
+// fizzBuzz()
+
+
+// Exercise- Even and odd number
+
+// if limit is 6 then:
+// Output: 
+// 0 "Even"
+// 1 "ODD"
+// 2 "Even"
+// 3 "ODD"
+// 4 "Even"
+// 5 "ODD"
+// 6 "Even"
+
+
+// function showNumber(limit){
+
+// }
+// showNumber(6)
+
+// console.log("ANinda")
+
+
+
+
+
+// maximum of two numbers
+
+// function maximum(num1, num2){
+//     // code goes here
+//     if(num1 > num2) {
+//         return num1
+//     }
+//     else {
+//         return num2
+//     }
+  
+//     return num1 > num2 ? num1 : num2
+// }
+
+// let maxValue = maximum(500, 30)
+
+// console.log(maxValue)
+
+// Use for and while loop to console all the odd/even numbers
+
+// for (let i = 1; i<+10; i++){
+//     console.log(i)
+// }
+
+
+// Do- while loop
+
+// let i = 0;
+// do {
+//     console.log("Hello")
+//     i++
+// } while(i<=5)
+
+
+// let index = 10
+// while(index <= 3){
+//     console.log("Hello While", index)
+//     index++
+//     console.log("value of index after increment: ", index)
+// }
+ 
