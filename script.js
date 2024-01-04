@@ -499,45 +499,7 @@
 // }
 
 
-// Exercise - Landscape or portrait
-// function isLandscape(width, height){
-//     // if(width > height) return true
-//     // else return false
 
-//     // return width > height ? true : false
-
-//     return width > height
-// }
-
-
-// console.log(isLandscape(300, 200))
-
-
-// Exercise - FizzBuzz
-// Divisible by 3 => Fizz
-// Divisible by 5 => Buzz
-// Divisible by both 3 and 5 => FizzBuzz
-// Not divisible by 3 or 5 => input
-// Not a number => "Not a number"
-
-// function fizzBuzz(input){
-
-// }
-
-// fizzBuzz()
-
-
-// Exercise- Even and odd number
-
-// if limit is 6 then:
-// Output: 
-// 0 "Even"
-// 1 "ODD"
-// 2 "Even"
-// 3 "ODD"
-// 4 "Even"
-// 5 "ODD"
-// 6 "Even"
 
 
 // function showNumber(limit){
@@ -585,10 +547,65 @@
 // } while(i<=5)
 
 
-// let index = 10
-// while(index <= 3){
+// let index = 1
+// while(index <= 5){
 //     console.log("Hello While", index)
 //     index++
 //     console.log("value of index after increment: ", index)
 // }
- 
+
+// Exercise - Landscape or portrait
+// function isLandscape(width, height){
+//     // if(width > height) return true
+//     // else return false
+
+//     // return width > height ? true : false
+
+//     return width > height
+// }
+
+
+// console.log(isLandscape(300, 200))
+
+
+// Exercise - FizzBuzz
+// Divisible by 3 => Fizz
+// Divisible by 5 => Buzz
+// Divisible by both 3 and 5 => FizzBuzz
+// Not divisible by 3 or 5 => input
+// Not a number => "Not a number"
+
+//Solution of FizzBuzz
+// function fizzbuzz(input){
+//     return typeof input === 'number' ? input % 3 === 0 && input % 5 === 0? console.log("FizzBuzz") : input % 3 === 0 ? console.log("Fizz") : input % 5 === 0 ? console.log("Buzz") : console.log(input) : "Not a number"
+// }
+
+// fizzbuzz("21")
+
+
+
+// Exercise- Even and odd number
+
+// if limit is 6 then:
+// Output: 
+// 0 "Even"
+// 1 "ODD"
+// 2 "Even"
+// 3 "ODD"
+// 4 "Even"
+// 5 "ODD"
+// 6 "Even"
+
+//Solution of Even and odd number problem
+// function my_number(input){
+// for(let i = 0; i <= input; i++){
+//     if(i % 2 === 0){
+//         console.log(i + ' ' + ' "Even" ')
+//     }
+//     else{
+//         console.log(i + ' ' + ' "ODD" ')
+//     }
+// }
+// }
+
+// my_number(100)
