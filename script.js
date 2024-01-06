@@ -139,473 +139,230 @@
 
 
 
-// // Part 00
-// // In JS we have different operators. 
-// // with these operators we make expressions ,
-// // and with expressions we make algorithms
 
-// // x + y -z +10 expressions
 
-// // Operators:
 
-// // Arithmatic 
-// // Assignment
-// // Comparison
-// // Logical
-// // Bitwise
 
-// // Part 01
-// // Arithmatic Operators
-// // let x = 10;
-// // let y = 15;
 
-// // console.log(x + y) 
-// // x + y is an expression. 
-// // + is an addition operator. It takes two operands. Then makes an expression.
-// // An expression is something that produces a value.
 
-// // console.log(x + y)
-// // console.log(x - y)
-// // console.log(x * y)
-// // console.log(x / y)
-// // console.log(x % y)
-// // console.log(x ** y)
 
-// // Increment (++)
-// // let x = 10;
-// // console.log(++x)
-// // console.log(x++)
-// // let z = x++
 
-// // x++;
-// // x = x + 1
 
-// // console.log(x)
 
-// // Decrement (--)
-// // same as increment
-// // console.log(--x)
-// // console.log(x--)
-// // console.log(x)
 
 
 
-// // Part 02 : Assignment Operator
-// // =, ++ , --
 
-// // let x = 10;
 
-// // x++;
-// // x = x + 1;
 
-// // x = x + 5;
-// // x += 5;
 
-// // x = x * 3;
-// // x *=3;
+// Exercise 1: 
+// Speed Limit = 70   ---> output: ok
+// 5 -> 1 point
+// Math.floor(1.4)
+// 12 points -> suspended ---> output: License Suspended
 
-// // x = x / 2
-// // x /=2
+// checkSpeed(200) // ok
+// checkSpeed() // 1 point
+// checkSpeed(200) // License suspended
 
+//Solution of this exercise:
 
 
-// // Part 03: Comparison Operators
 
-// // let x = 1;
 
-// // Relational
-// // console.log(x > 0)
-// // const y = x> 0
-// // console.log("y : ", y)
-
-// // console.log(x >= 1)
-
-// // console.log(x < 1)
-// // console.log(x <= 1)
-
-// // Equality
-// // let x = 10
-// // console.log(x === 10);
-// // console.log(x !== 10);
-
-
-// // Part 04: Equality Operators
-// // Strict Equality (Type + Value)
-// // console.log(1 === 1) // true
-// // console.log("1" === 1) // false
-
-// // Lose Equality (Value)
-// // console.log(1 == 1) 
-// // console.log("1" == 1) // true
-// // console.log(true == 1) // true
-// // console.log(false == 1) // true
-// // console.log(false == 0) // true
-
-
-
-// // Part 06 : Ternary Operator
-
-// // My favorite
-// // If a programmer solves 100 problems he is a "gold" level programmer, otherwise he is a silver level programmar.
-
-// // let problems = 110;
-
-// // let level = problems > 100 ? "gold" : "silver"
-
-// // console.log(level)
-
-// // 80 >    A+
-// // 70 >    A
-// // else    Pass
-
-// // let problems = 50;
-
-// // let level = problems > 80 ?  "A+" : problems > 70 ? "A" : "Pass"
-
-
-
-
-// // let type = problems > 100 ? "gold" : "silver";
-
-// // console.log(type)
-
-
-// // Part 07 : Logical Operators
-
-// // Logical AND (&&) 
-// // Returns TRUE if both operands are TRUE
-// // console.log(true && true)
-
-
-// // let curiosity = true;
-// // let industrious = true;
-// // let helpfull = true;
-// // let goodDeveloper = curiosity && industrious && helpfull
-
-// // console.log(goodDeveloper)
-
-// // let highIncome = false;
-// // let goodCreditScore = true;
-// // let eligibleForLoan = highIncome && goodCreditScore
-// // console.log(eligibleForLoan)
-
-
-// // Logical OR (||)
-// // Returns true if one of the operands is true
-
-// // let highIncome = true;
-// // let goodCreditScore = false;
-// // let eligibleForLoan = highIncome || goodCreditScore
-
-// // console.log("Eligible", eligibleForLoan)
-
-// // NOT (!)
-// // let applicationRefused = !eligibleForLoan;
-// // console.log("Application Refused", applicationRefused)
-
-// // let x = !(-18)
-// // console.log(x)
-// // falsy, truthy
-
-
-
-
-
-
-
-
-
-// Logical Operators with Non-booleans
-
-// false || true
-// false || "Aninda"
-// false || 1
-
-// Falsy (false) values
+// Exercise 2:
+// Falsy values:
 // undefined
 // null
-// 0
-// false
 // ""
+// false
+// 0
 // NaN
 
+// let isActive = ""
+// if(isActive) console.log("hello")
+
+// let myArray = ['', 2, 3,10,"hello", undefined, false]
+
+// countTruthy(myArray) // 4
+
+// function countTruthy(array){}
 
 
-// Truthy -> Anything that is not falsy
+// Exercise 3:
 
-// false || 1 || 2
-// short-circuiting
+// Show All the "string properties" of an object
 
-// Real world example
-// let userColor = "";
-// let defaultColor = "blue";
-
-// let currentColor = userColor || defaultColor
-
-// console.log(currentColor)
-
-
-// Operators Precedence
-// let x = (3 + 4) * 5
-
-// console.log(x)
-
-//Operator Section :  Final Exercise
-
-// Swapping Variables
-// Swapping variable solution
-// let a = "red";
-// let b = "green"
-
-// let c;
-// c = a
-// a = b
-// b = c
-
-
-// b = a
-// a = b
-
-// console.log("a", a)
-// console.log("b", b)
-// console.log("C :", c)
-
-
-
-// console.log(a) // a should be green
-// console.log(b) // b should be red
-
-
-
-// Conditional Statements
-// 1. if...else
-// 2. Switch...case
-
-
-// 1. if...else
-// Hour
-// If hour is between 6am and 12pm: Good morning!
-// if hour is between 12pm and 6pm: Good afternoon!
-// Otherwise: Good Evening
-
-// let hour = 12
-
-// if(hour >= 6 && hour <=12)
-//     console.log("Good Morning!")
-// else if(hour > 12 && hour <=18)
-//     console.log("Good Afternoon")
-// else 
-//     console.log("Good Evening!")
-
-
-// if(condition){
-//     statement
-// }
-// else if(anotherCondition){
-//     statement
-// }
-// else if (yetAnotherCondition){
-//     statement
-// }
-// else statement
-
-
-// 2. Switch...case
-// let role = "guest"
-
-// switch(role){
-//     case "guest":
-//         console.log("Guest User!");
-//         break;
-//     case "moderator":
-//         console.log("Moderator User!");
-//         break
-//     default:
-//         console.log("User not found")
+// const movie = {
+//     title: "a",
+//     releaseYear: 2023,
+//     rating: 4.5,
+//     director: "b"
 // }
 
-// if(role === "guest") console.log("Guest User")
-// else if(role === "moderator") console.log("Moderator User")
-
-
-
- 
-
-
-
- 
-
-// Use for and while loop to console all the odd/even numbers
-
-// for (let i = 1; i<=10; i++){
-//     if(i % 2 ===1) console.log(i)
+// function showProperties(obj){
+//     // Code
 // }
+// showProperties(movie)
 
-// let i = 20;
-// while(i <= 10){
-//     if(i% 2 === 0 ) console.log(i)
-//     i++
+
+// Exercise 4: 
+// Sum of Multiples of 3 and 5
+
+// Multiples of 3: 3, 6, 9,
+// Multiples of 5: 5, 10
+
+// function sum(limit){
+
 // }
-
-// do - while loop
-
-// let i = 20
-// do{
-//     if(i%2 === 0) console.log(i)
-//     i++
-// } while(i<=10)
-
-// for - in loop
-
-// const teacher  = {
-//     name: "Aninda",
-//     age: "28"
-// }
-
-// let selectedProperty = "age"
-// console.log(teacher[selectedProperty])
-
-// for (let key in teacher){
-//     // How to get the values?
-//     console.log(key, teacher[key])    
-// }
+// console.log(sum(10))
 
 
-// const colors = ["red", "green", "blue"]
+// FizzBuzz
 
-// for(let index in colors){
-//     console.log(index, colors[index])
-// }
-
-// for - of loop
-
-// for (let color of colors){
-//     console.log(color)
-// }
-
-// Break and continue
-// Break -> we jump out of the loop
-// continue -> we jump to the next iteration
-
-// let k = 0;
-// while(k<= 10){
-//     // if(k===5) break
-//     if(k%2=== 0){
-//         k++;
-//         continue;
+// function fizzBuzz(num) {
+//     if(typeof num !== "number"){
+//         console.log("It's not a number")
+//     } else if( num % 3 === 0 && num % 5 === 0){
+//         console.log("FizzBuzz")
+//     } else if(num % 5 === 0){
+//         console.log("Buzz")
+//     } else if(num % 3 === 0){
+//         console.log("Fizz")
 //     }
-//     console.log(k)
-//     k++
 // }
 
-
-
-
+// fizzBuzz(15) 
 
 // function showNumber(limit){
-
-// }
-// showNumber(6)
-
-// console.log("ANinda")
-
-
-
-
-
-// maximum of two numbers
-
-// function maximum(num1, num2){
-//     // code goes here
-//     if(num1 > num2) {
-//         return num1
+//     for(let i = 1; i<=limit; i++){
+//         if(i%2 === 0){
+//             console.log(i, "Even")
+//         } else {
+//             console.log(i, "Odd")
+//         }
 //     }
-//     else {
-//         return num2
-//     }
-  
-//     return num1 > num2 ? num1 : num2
+
 // }
 
-// let maxValue = maximum(500, 30)
-
-// console.log(maxValue)
-
-// Use for and while loop to console all the odd/even numbers
-
-// for (let i = 1; i<+10; i++){
-//     console.log(i)
-// }
-
-
-// Do- while loop
-
-// let i = 0;
-// do {
-//     console.log("Hello")
-//     i++
-// } while(i<=5)
-
-
-// let index = 1
-// while(index <= 5){
-//     console.log("Hello While", index)
-//     index++
-//     console.log("value of index after increment: ", index)
-// }
-
-// Exercise - Landscape or portrait
-// function isLandscape(width, height){
-//     // if(width > height) return true
-//     // else return false
-
-//     // return width > height ? true : false
-
-//     return width > height
-// }
-
-
-// console.log(isLandscape(300, 200))
-
-
-// Exercise - FizzBuzz
-// Divisible by 3 => Fizz
-// Divisible by 5 => Buzz
-// Divisible by both 3 and 5 => FizzBuzz
-// Not divisible by 3 or 5 => input
-// Not a number => "Not a number"
-
-//Solution of FizzBuzz
-// function fizzbuzz(input){
-//     return typeof input === 'number' ? input % 3 === 0 && input % 5 === 0? console.log("FizzBuzz") : input % 3 === 0 ? console.log("Fizz") : input % 5 === 0 ? console.log("Buzz") : console.log(input) : "Not a number"
-// }
-
-// fizzbuzz("21")
+// showNumber(10)
+// 0 "EVEN"
+// 1 "ODd"
 
 
 
-// Exercise- Even and odd number
+// Basic
 
-// if limit is 6 then:
-// Output: 
-// 0 "Even"
-// 1 "ODD"
-// 2 "Even"
-// 3 "ODD"
-// 4 "Even"
-// 5 "ODD"
-// 6 "Even"
+// Objects are collections of key-value pairs
+// Purpose: Group related variables
+// let radius = 1;
+// let x = 1;
+// let y = 1;
 
-//Solution of Even and odd number problem
-// function my_number(input){
-// for(let i = 0; i <= input; i++){
-//     if(i % 2 === 0){
-//         console.log(i + ' ' + ' "Even" ')
-//     }
-//     else{
-//         console.log(i + ' ' + ' "ODD" ')
+
+// Object literal syntax
+// const circle = {
+//     radius: 1,
+//     location: {
+//         x: 1,
+//         y: 1
+//     },
+//     isVisible: true,
+//     draw: function (){
+//         console.log("draw")
 //     }
 // }
+
+
+// Object-oriented Programming (OOP)
+// In OOP, a function inside an object is called Method
+
+
+// circle.draw()
+
+// Factory Functions
+// If we have logic inside an object, we need a different way of constructing an object
+// Then we need factory function
+
+// function createCircle(radius){
+//     return {
+//         radius,
+//         draw(){
+//             console.log("Draw")
+//         },
+//     }
 // }
 
-// my_number(100)
+// function createCircle(radius){
+//     return {
+//         radius ,
+//         draw: function(){
+//             console.log("draw")
+//         }
+//     }
+// }
+
+
+// let newCircle = createCircle(10)
+
+// let againNewCircle = createCircle(15)
+
+// console.log(newCircle)
+// console.log(againNewCircle)
+
+// {}
+// factory function
+
+
+// constructor function
+
+
+// Camel Notation: oneTwoThree
+// Pascal Notation: OneTwoThree
+
+// function Circle(radius){
+//     this.radius = radius,
+//     this.draw = function(){
+//         console.log("draw")
+//     }
+// }
+// let circle1 = new Circle(10)
+// let xyz = {}
+// xyz.radius = 10
+// xyz.draw = function(){
+//     console.log("draw")
+// }
+
+// When we use "new" operator, three things happen:
+// 1. it creates an empty js object
+// 2. it will point "this" to this empty object
+// 3. Finally it will return the new object.
+
+
+// console.log(circle1)
+// "this" is a reference to the object, that is executing this piece of code.
+// for now imagine this is an empty object({})
+
+
+// Dynamic Nature of Objects
+// const circle = {
+//     radius: 1
+// }
+
+// circle = {}
+
+// circle.color = "red"
+// circle.draw = function(){}
+// circle.radius = 10
+
+
+// delete circle.color;
+// delete circle.draw;
+
+// console.log(circle)
+
+// What kind of constant is cicrle??
+
+
+// we cannot reassign cicle object, but we can change property.
