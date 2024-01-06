@@ -86,9 +86,3 @@ function my_number(input){
 }
 
 my_number(100)*/
-
-
-
-
-
-
